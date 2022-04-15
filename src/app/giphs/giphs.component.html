@@ -1,0 +1,10 @@
+<div class="container-fluid gifs d-flex flex-wrap justify-content-center">
+    <div class="gif m-2 p-3 w-auto h-auto align-middle" *ngFor="let gif of trendingGifs">
+        <div class="card" style="width: 18rem;">
+            <img [src]="gif.images.downsized.url" [alt]="gif.images.downsized.url">
+            <!-- <div class="card-body">
+            </div> -->
+          </div>
+        <!-- <img [src]="gif.images.downsized.url" [alt]="gif.images.downsized.url"> -->
+    </div>
+</div>
